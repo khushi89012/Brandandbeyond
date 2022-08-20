@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .welcome-text{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(251, 253, 253);
+    opacity: 1;
+  }
+
+
+.navbar2{
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+
+}
+
+.main-container{
+  margin-top: -10px;
+  height: 700px;
+  width: 100%;
+  background-image: url(../Components/Common/logo.png);
+  background-size: contain;
+  opacity: 0.8;
+}

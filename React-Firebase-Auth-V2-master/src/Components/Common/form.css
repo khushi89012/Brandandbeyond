@@ -1,0 +1,77 @@
+.heading-container{
+    width: 100%;
+    height:100vh;
+    display: flex;  
+}
+
+.header-left{
+    flex:5;
+  
+}
+
+.login-link{
+    cursor: pointer;
+    color: blue;
+
+}
+
+.login-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.header-right{
+    
+    flex:5;
+    /* border:1px solid green; */
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+
+  
+}
+h2{
+    color:teal;
+    font-size: 4.7rem;
+    text-align: center;
+    font-family: "Josefin Sans rev=1";
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+   .heading-container{
+    display:block;
+   }
+   img{
+    width:100%;
+    height: 280px;
+    z-index: -2;
+   }
+    .header-right{
+        z-index: 1;
+        margin-top: -90px;
+        background-color: rgb(254, 249, 249)!important;
+        height: 400px;
+        width: 70%;
+        position: relative;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        text-align: center;
+    }
+   h2{
+    font-size: 30px;
+    color:teal;
+   }
+   .header-left{
+    z-index: -1;
+    width: 100%;
+    box-shadow: none;
+   
+   
+   }
+}
+   
+
+    
