@@ -1,6 +1,7 @@
 # Brandandbeyond
 
 # Getting Started with Create React App
+    npx create-react-app
 
 ### Installation
 
@@ -27,3 +28,6 @@
 ### Express
 ### MongoDB
 ### Media queries for Mobile view
+
+## Sample Images
+
