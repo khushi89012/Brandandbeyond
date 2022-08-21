@@ -12,6 +12,7 @@
 
 ### Key-points
     Create User using email and password in Register page
+    
     Login using email and password in login page
 
 ## For Admin Panel 
